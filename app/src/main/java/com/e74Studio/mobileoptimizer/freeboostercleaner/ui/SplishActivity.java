@@ -18,6 +18,7 @@ import com.e74Studio.mobileoptimizer.freeboostercleaner.utils.SharedPreferencesU
 import com.e74Studio.mobileoptimizer.freeboostercleaner.R;
 
 
+
 public class SplishActivity extends BaseActivity {
     public static final String ACTION_INSTALL_SHORTCUT = "com.android.launcher.action.INSTALL_SHORTCUT";
     TextView appName;
@@ -42,6 +43,8 @@ public class SplishActivity extends BaseActivity {
 //        }
         initAnim();
         setListener();
+
+
     }
 
     private void createShortCut() {

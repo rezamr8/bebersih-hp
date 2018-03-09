@@ -31,6 +31,9 @@ import com.e74Studio.mobileoptimizer.freeboostercleaner.utils.SystemBarTintManag
 import com.e74Studio.mobileoptimizer.freeboostercleaner.utils.T;
 import com.e74Studio.mobileoptimizer.freeboostercleaner.utils.UIElementsHelper;
 import com.e74Studio.mobileoptimizer.freeboostercleaner.R;
+import com.startapp.android.publish.adsCommon.AutoInterstitialPreferences;
+import com.startapp.android.publish.adsCommon.StartAppAd;
+import com.startapp.android.publish.adsCommon.StartAppSDK;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -85,6 +88,14 @@ public class MainActivity extends BaseActivity implements NavigationDrawerFragme
         onNavigationDrawerItemSelected(0);
         initDrawer();
         setRepeatingAlarm();
+
+        //startapp
+        StartAppSDK.init(this, "202120176", true);
+        StartAppAd.enableAutoInterstitial();
+        StartAppAd.setAutoInterstitialPreferences(
+                new AutoInterstitialPreferences()
+                        .setSecondsBetweenAds(60)
+        );
 
 
     }
