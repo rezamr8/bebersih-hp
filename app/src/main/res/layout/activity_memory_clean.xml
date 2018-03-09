@@ -27,7 +27,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10.0dip">
 
-                <com.ferdi.cleaner.widget.textcounter.CounterView
+                <com.e74Studio.mobileoptimizer.freeboostercleaner.widget.textcounter.CounterView
                     android:id="@+id/textCounter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 android:visibility="gone"
                 wave:cpb_colors="@array/gplus_colors" />
 
-            <com.ferdi.cleaner.views.RotateLoading
+            <com.e74Studio.mobileoptimizer.freeboostercleaner.views.RotateLoading
                 android:id="@+id/rotate_loading"
                 android:layout_width="88.0dip"
                 android:layout_height="88.0dip"
@@ -175,9 +175,7 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app1="http://schemas.android.com/apk/res-auto"
         android:id="@+id/layout_container2"
         android:layout_width="fill_parent"
@@ -203,7 +201,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent">
 
-                    <com.ferdi.cleaner.views.HoloCircularProgressBar
+                    <com.e74Studio.mobileoptimizer.freeboostercleaner.views.HoloCircularProgressBar
                         android:id="@+id/clean_done_holoCircularProgressBar"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
