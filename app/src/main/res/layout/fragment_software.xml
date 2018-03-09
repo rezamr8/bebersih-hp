@@ -55,7 +55,7 @@
             android:visibility="gone"
             app:cpb_colors="@array/gplus_colors" />
 
-        <com.ferdi.cleaner.views.RotateLoading
+        <com.e74Studio.mobileoptimizer.freeboostercleaner.views.RotateLoading
             android:id="@+id/rotate_loading"
             android:layout_width="88.0dip"
             android:layout_height="88.0dip"
